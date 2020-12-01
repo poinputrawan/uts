@@ -1,0 +1,176 @@
+* {
+    
+}
+
+
+body {
+background-color:whitesmoke;
+  font-family: Tahoma,Geneva,sans-serif;
+}
+
+
+
+#header{
+    background-color: #0e0433;
+    height:150px;
+
+}
+
+
+
+#header h1{
+    color: #ffffff;
+    padding:40px 10px 0px 20px;
+	float: left;
+	font-family: 'Exo', sans-serif;
+	font-size: 35px;
+	font-weight: 200;
+}
+
+#header h2{
+    color:#00125b;
+    padding:68px 30px 30px 20px;
+    text-shadow:#fff 1px 1px 3px;
+	float: right;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 20px;
+	font-weight: 100;
+}
+
+
+
+#silebar_left {
+    width:310px;
+    height:600px;
+    float:left;
+    margin-top: 5px;
+    border-right:1px solid #bababa;
+    background-color: #0e0433;
+   
+}
+
+#sidebar_right {
+    width:320px;
+    height:600px;
+    float:right;
+    background-color: #0e0433;
+    
+    color: white;
+    font-family:  Tahoma,Geneva,sans-serif;;
+    
+}
+
+
+
+#sidebar_right p {
+ padding-left: 10px;
+ padding-right: 15px;
+}
+
+
+#sidebar_right h2 {
+    padding-left: 10px;
+    height: 40px;
+    padding-top: 30px;
+    color: #ffffff;
+    
+   }
+
+.gambar img{
+ width: 70px;   
+ padding: 10px;   
+}
+
+.gambar p{
+    float: right;
+    font-size: 15px;
+    padding-right: 14px;
+      
+   }
+
+.gambar2 p{
+    float: right;
+    font-size: 15px;
+    padding-right: 14px;
+
+
+    
+   }
+
+
+
+
+.gambar2 img{
+    width: 70px;
+    padding: 10px;   
+       
+   }
+
+
+
+#isi_silebar ul{
+    list-style-type:none;
+    padding:0px;
+    margin:0px;
+    
+}
+
+.isi_silebar ul li{
+    font-size: 15px;
+    color: darkgray;
+}
+
+#silebar_left a{
+    display:block;
+    padding:10px;
+    padding-left: 25px;
+    border-bottom:0px solid #bababa;
+    text-decoration:none;
+    font-size: medium;
+    color:white;
+}
+
+#silebar_left a:hover{
+    color: #ffffff;
+}
+
+#konten{
+    padding:0px;
+    width:690px;
+    height: 600px;
+    float:left;
+    font-size:11pt;
+    margin:5px;
+    background-color: #0e0433;
+    color: white;
+}
+
+#konten h2{
+    color: #ffffff;
+}
+
+table{
+    width: 500px;
+}
+
+table ,th, td{
+border: 1px solid black;
+font-size: 15px;
+
+}
+
+button{
+    color:white;
+    background-color: #ffa931;
+    width: 100px;
+    font-size: 18px;
+    border-radius: 10px;
+    
+    
+
+    
+
+}
+
+

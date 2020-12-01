@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Layout Web Responsive Dengan HTML dan CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css" />
+</head>
+    <body>   
+            <div id="header">
+                <h1>SISKA</h1>
+                <h2> Poin Putrawan</h2>
+            </div>
+                  <div class="col-3 col-m-5">
+                    <div id="silebar_left">
+                        
+                        <div id="isi_silebar">
+                            <ul>
+                                <li><a href="#">Berita</a></li>
+                                <li><a href="#">Mahasiswa</a></li>
+                                <li><a href="#">Dosen</a></li>
+                                <li><a href="#">Bimbingan</a></li>
+                                <li><a href="#">User Admin</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                  
+                </div>
+                <div class="col-9 col-m-7">
+                    <div id="konten">
+                        <div class="col-12 col-ml-3">
+                            <h2 style="margin-left: 30px;">DATA MAHASISWA</h2>
+                           <form>
+                               <label for="fname"></label><br>
+                               <input style="margin-left: 30px;" type="text" id="fname" name="fname" placeholder="Pencarian">
+                               <button style="margin-right: 10px; margin-bottom: 10px;">cari</button><br>
+                               <br>
+                               
+                               <table style="margin-left: 30px;">
+                                   <tr>
+                                       <th>Nim</th>
+                                       <th>Nama Mahasiswa</th>
+                                       <th>Program Studi</th>
+                                       <th>kelas</th>
+                                       <th>semester</th>
+                                   </tr>
+                                   <tr>
+                                       <td>1810520019</td>
+                                       <td>Poin Putrawan</td>
+                                       <td>Ilkom</td>
+                                       <td>A</td>
+                                       <td>V (lima)</td>
+                                   </tr>
+                                   <tr>
+                                    <td>1810520090</td>
+                                    <td>someone</td>
+                                    <td>Ilkom</td>
+                                    <td>A</td>
+                                    <td>V (lima)</td>
+                                </tr>
+                               </table>
+                               
+                           </form>
+                        </div>
+                    </div>
+                </div>
+                <div id="sidebar_right">
+                    
+                    <div id="isi_silebar">
+                    <p>Halaman ini berupa data mahasiswa yg telah di catat oleh sistem informasi akademik <br>
+                    Data yg di simpan merupakan data nim,nama mahasiwa,serta perogram studi mahasiswa</p>
+                    <h2>Berita terkini</h2>
+                     <div class="gambar">
+                        <img src="img/information.png" alt=""> <p>informasi mahasiswa yg lulus <br> terbaik tahun 2020</p>
+                        
+                     </div>  
+                     <div class="gambar2"> 
+                        <img src="img/people.png" alt=""> <p>Jadwal perkulihaan online <br>selama pandemi corona 2020</p>
+                        
+                    </div> 
+                    </div>
+                </div>
+            
+        
+    </body>
+</html>
